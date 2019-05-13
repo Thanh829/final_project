@@ -10,8 +10,7 @@ namespace DAQuanLyNhanVien.DB_layer
 {
     class DBMain
     {
-
-        string ConnStr = "Data Source=DESKTOP-C7V0DIE\\SQLEXPRESS01;Initial Catalog=QuanLyNV;Integrated Security=True";
+        string ConnStr = "Data Source=D1WB7FP2\\SQLEXPRESS;Initial Catalog=QuanLyNV;Integrated Security=True";
         SqlConnection conn = null;
         SqlCommand comm = null;
         SqlDataAdapter da = null;

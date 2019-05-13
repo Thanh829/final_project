@@ -46,7 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BS layer\BLLuong.cs" />
     <Compile Include="BS layer\BLNhanVien.cs" />
+    <Compile Include="BS layer\BLPhancong.cs" />
     <Compile Include="DB layer\DBMain.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -55,10 +57,28 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="iDate.cs" />
+    <Compile Include="Luong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Luong.Designer.cs">
+      <DependentUpon>Luong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phancong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phancong.Designer.cs">
+      <DependentUpon>Phancong.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Luong.resx">
+      <DependentUpon>Luong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phancong.resx">
+      <DependentUpon>Phancong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

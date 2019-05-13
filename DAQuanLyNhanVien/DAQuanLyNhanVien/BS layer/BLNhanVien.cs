@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 using System.Globalization;
-using DAQuanLyNhanVien.DB_layer;
+using DAQuanLyNhanVien.DB_layer;
+
 
 namespace DAQuanLyNhanVien.BS_layer
 {
