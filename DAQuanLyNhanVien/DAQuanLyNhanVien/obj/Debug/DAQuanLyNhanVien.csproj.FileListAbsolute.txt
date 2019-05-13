@@ -1,0 +1,20 @@
+C:\Users\thanh\source\repos\DAQuanLyNhanVien\DAQuanLyNhanVien\bin\Debug\DAQuanLyNhanVien.exe.config
+C:\Users\thanh\source\repos\DAQuanLyNhanVien\DAQuanLyNhanVien\bin\Debug\DAQuanLyNhanVien.exe
+C:\Users\thanh\source\repos\DAQuanLyNhanVien\DAQuanLyNhanVien\bin\Debug\DAQuanLyNhanVien.pdb
+C:\Users\thanh\source\repos\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.csprojAssemblyReference.cache
+C:\Users\thanh\source\repos\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.Form1.resources
+C:\Users\thanh\source\repos\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.Properties.Resources.resources
+C:\Users\thanh\source\repos\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.csproj.GenerateResource.cache
+C:\Users\thanh\source\repos\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.csproj.CoreCompileInputs.cache
+C:\Users\thanh\source\repos\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.exe
+C:\Users\thanh\source\repos\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.pdb
+E:\Nam2_Ki2\LT Window\Final\DAQuanLyNhanVien\DAQuanLyNhanVien\bin\Debug\DAQuanLyNhanVien.exe.config
+E:\Nam2_Ki2\LT Window\Final\DAQuanLyNhanVien\DAQuanLyNhanVien\bin\Debug\DAQuanLyNhanVien.exe
+E:\Nam2_Ki2\LT Window\Final\DAQuanLyNhanVien\DAQuanLyNhanVien\bin\Debug\DAQuanLyNhanVien.pdb
+E:\Nam2_Ki2\LT Window\Final\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.csprojAssemblyReference.cache
+E:\Nam2_Ki2\LT Window\Final\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.Form1.resources
+E:\Nam2_Ki2\LT Window\Final\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.Properties.Resources.resources
+E:\Nam2_Ki2\LT Window\Final\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.csproj.GenerateResource.cache
+E:\Nam2_Ki2\LT Window\Final\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.csproj.CoreCompileInputs.cache
+E:\Nam2_Ki2\LT Window\Final\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.exe
+E:\Nam2_Ki2\LT Window\Final\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.pdb
