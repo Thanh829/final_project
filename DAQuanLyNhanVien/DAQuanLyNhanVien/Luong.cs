@@ -179,5 +179,10 @@ namespace DAQuanLyNhanVien
         {
             LoadData();
         }
+
+        private void txtMaNV_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

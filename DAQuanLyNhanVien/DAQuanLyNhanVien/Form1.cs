@@ -11,9 +11,9 @@ using System.Data.SqlClient;
 using DAQuanLyNhanVien.BS_layer;
 namespace DAQuanLyNhanVien
 {
-    public partial class Form1 : Form
+    public partial class frmNhanVien : Form
     {
-        public Form1()
+        public frmNhanVien()
         {
             InitializeComponent();
         }
@@ -220,6 +220,11 @@ namespace DAQuanLyNhanVien
         {
             LoadData();
             this.panel1.Enabled = false;
+        }
+
+        private void btnTimKiem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
