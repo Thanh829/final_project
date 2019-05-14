@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DAQuanLyNhanVien
 {
-    public partial class Main : Form
+    public partial class frmMain : Form
     {
-        public Main()
+        public frmMain()
         {
             InitializeComponent();
         }           
@@ -22,7 +22,7 @@ namespace DAQuanLyNhanVien
             toolTip2.SetToolTip(btnChamCong, "Chấm công");
             toolTip3.SetToolTip(btnNhanVien, "Nhân viên");
             toolTip4.SetToolTip(btnLuong, "Lương");
-            toolTip5.SetToolTip(btnPhongBan, "Phong ban");
+            toolTip5.SetToolTip(btnPhongBan, "Phòng ban");
             toolTip6.SetToolTip(btnDuAn, "Dự án");
             toolTip7.SetToolTip(btnPhanCong, "Phân công");
         }
@@ -36,23 +36,25 @@ namespace DAQuanLyNhanVien
 
         private void btnLuong_Click(object sender, EventArgs e)
         {
-            Luong fl = new Luong();
+            frmLuong fl = new frmLuong();
             fl.ShowDialog();
         }
 
         private void btnPhongBan_Click(object sender, EventArgs e)
         {
-            
+            frmPhongBan fPhB = new frmPhongBan();
+            fPhB.ShowDialog();
         }
 
         private void btnDuAn_Click(object sender, EventArgs e)
         {
-
+            frmDuAn fDA = new frmDuAn();
+            fDA.ShowDialog();
         }
 
         private void btnPhanCong_Click(object sender, EventArgs e)
         {
-            Phancong fpb = new Phancong();
+            frmPhanCong fpb = new frmPhanCong();
             fpb.ShowDialog();
         }
     }

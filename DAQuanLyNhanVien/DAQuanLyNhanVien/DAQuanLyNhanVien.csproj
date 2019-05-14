@@ -46,48 +46,68 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BS layer\BLDuAn.cs" />
     <Compile Include="BS layer\BLLuong.cs" />
     <Compile Include="BS layer\BLNhanVien.cs" />
     <Compile Include="BS layer\BLPhancong.cs" />
+    <Compile Include="BS layer\BLPhongBan.cs" />
     <Compile Include="DB layer\DBMain.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="frmDuAn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmDuAn.Designer.cs">
+      <DependentUpon>frmDuAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNhanVien.Designer.cs">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhongBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhongBan.Designer.cs">
+      <DependentUpon>frmPhongBan.cs</DependentUpon>
     </Compile>
     <Compile Include="iDate.cs" />
-    <Compile Include="Luong.cs">
+    <Compile Include="frmLuong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Luong.Designer.cs">
-      <DependentUpon>Luong.cs</DependentUpon>
+    <Compile Include="frmLuong.Designer.cs">
+      <DependentUpon>frmLuong.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main.cs">
+    <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main.Designer.cs">
-      <DependentUpon>Main.cs</DependentUpon>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phancong.cs">
+    <Compile Include="frmPhanCong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Phancong.Designer.cs">
-      <DependentUpon>Phancong.cs</DependentUpon>
+    <Compile Include="frmPhanCong.Designer.cs">
+      <DependentUpon>frmPhanCong.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frmDuAn.resx">
+      <DependentUpon>frmDuAn.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Luong.resx">
-      <DependentUpon>Luong.cs</DependentUpon>
+    <EmbeddedResource Include="frmNhanVien.resx">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
-      <DependentUpon>Main.cs</DependentUpon>
+    <EmbeddedResource Include="frmPhongBan.resx">
+      <DependentUpon>frmPhongBan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phancong.resx">
-      <DependentUpon>Phancong.cs</DependentUpon>
+    <EmbeddedResource Include="frmLuong.resx">
+      <DependentUpon>frmLuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhanCong.resx">
+      <DependentUpon>frmPhanCong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -174,6 +194,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\home-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_folder_add_61769.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_folder_delete_61770.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_folder_61771.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder Pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-add-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-ok-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-edit-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-cancel-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_delete_61763.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_fileclose_6038.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_undo_6212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-Help-Info-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitl3ed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitle2d.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

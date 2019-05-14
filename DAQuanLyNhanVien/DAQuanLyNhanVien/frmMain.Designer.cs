@@ -1,6 +1,6 @@
 ﻿namespace DAQuanLyNhanVien
 {
-    partial class Main
+    partial class frmMain
     {
         /// <summary>
         /// Required designer variable.
@@ -46,6 +46,7 @@
             this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip6 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip7 = new System.Windows.Forms.ToolTip(this.components);
+            this.btnThongTin = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,17 +54,17 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Wide Latin", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Tahoma", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(31, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(619, 46);
+            this.label1.Size = new System.Drawing.Size(629, 77);
             this.label1.TabIndex = 0;
             this.label1.Text = "QUẢN LÍ NHÂN SỰ";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.panel1.Controls.Add(this.btnPhongBan);
             this.panel1.Controls.Add(this.btnDuAn);
             this.panel1.Controls.Add(this.btnPhanCong);
@@ -71,7 +72,7 @@
             this.panel1.Controls.Add(this.btnNhanVien);
             this.panel1.Controls.Add(this.btnChamCong);
             this.panel1.Controls.Add(this.btnHoSo);
-            this.panel1.Location = new System.Drawing.Point(39, 160);
+            this.panel1.Location = new System.Drawing.Point(39, 191);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(611, 255);
             this.panel1.TabIndex = 1;
@@ -89,7 +90,7 @@
             // 
             // btnDuAn
             // 
-            this.btnDuAn.BackgroundImage = global::DAQuanLyNhanVien.Properties.Resources.address_book;
+            this.btnDuAn.BackgroundImage = global::DAQuanLyNhanVien.Properties.Resources.iconfinder_folder_61771;
             this.btnDuAn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnDuAn.Location = new System.Drawing.Point(384, 144);
             this.btnDuAn.Name = "btnDuAn";
@@ -157,23 +158,34 @@
             this.lDN.BackColor = System.Drawing.Color.Transparent;
             this.lDN.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lDN.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lDN.Location = new System.Drawing.Point(522, 123);
+            this.lDN.Location = new System.Drawing.Point(522, 160);
             this.lDN.Name = "lDN";
             this.lDN.Size = new System.Drawing.Size(128, 25);
             this.lDN.TabIndex = 2;
             this.lDN.Text = "Đăng Nhập";
             // 
-            // Main
+            // btnThongTin
+            // 
+            this.btnThongTin.BackgroundImage = global::DAQuanLyNhanVien.Properties.Resources.Apps_Help_Info_icon;
+            this.btnThongTin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnThongTin.Location = new System.Drawing.Point(39, 138);
+            this.btnThongTin.Name = "btnThongTin";
+            this.btnThongTin.Size = new System.Drawing.Size(45, 47);
+            this.btnThongTin.TabIndex = 5;
+            this.btnThongTin.UseVisualStyleBackColor = true;
+            // 
+            // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::DAQuanLyNhanVien.Properties.Resources.hinh_nen_slide_dep_63_023219752;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(695, 426);
+            this.ClientSize = new System.Drawing.Size(690, 476);
+            this.Controls.Add(this.btnThongTin);
             this.Controls.Add(this.lDN);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
-            this.Name = "Main";
+            this.Name = "frmMain";
             this.Text = "Maincs";
             this.Load += new System.EventHandler(this.Maincs_Load);
             this.panel1.ResumeLayout(false);
@@ -201,5 +213,6 @@
         private System.Windows.Forms.ToolTip toolTip5;
         private System.Windows.Forms.ToolTip toolTip6;
         private System.Windows.Forms.ToolTip toolTip7;
+        private System.Windows.Forms.Button btnThongTin;
     }
 }

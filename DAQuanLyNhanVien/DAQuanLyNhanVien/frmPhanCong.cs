@@ -10,9 +10,9 @@ using System.Windows.Forms;
 using DAQuanLyNhanVien.BS_layer;
 namespace DAQuanLyNhanVien
 {
-    public partial class Phancong : Form
+    public partial class frmPhanCong : Form
     {
-        public Phancong()
+        public frmPhanCong()
         {
             InitializeComponent();
         }
@@ -180,6 +180,36 @@ namespace DAQuanLyNhanVien
             //this.btnTroVe.Enabled = false;
             // Đưa con trỏ đến TextField txtMaKH
             this.txtMaNV.Focus();
+        }
+
+        private void btnTroVe_Click(object sender, EventArgs e)
+        {
+            // Khai báo biến traloi
+            DialogResult traloi;
+            // Hiện hộp thoại hỏi đáp
+            traloi = MessageBox.Show("Chắc không?", "Trả lời",
+            MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            // Kiểm tra có nhắp chọn nút Ok không?
+            if (traloi == DialogResult.OK) this.Close();
+        }
+
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+            // Xóa trống các đối tượng trong Panel
+            this.txtMaNV.ResetText();
+            this.txtMaDA.ResetText();
+            this.txtNgayBD.ResetText();
+            this.txtNgayKT.ResetText();
+            // Cho thao tác trên các nút Thêm / Sửa / Xóa / Thoát
+            this.btnThem.Enabled = true;
+            this.btnSua.Enabled = true;
+            this.btnXoa.Enabled = true;
+            this.btnTroVe.Enabled = true;
+            // Không cho thao tác trên các nút Lưu / Hủy / Panel
+            this.btnLuu.Enabled = false;
+            this.btnHuy.Enabled = false;
+            this.panel1.Enabled = false;
+            dgv_CellClick(null, null);
         }
     }
 }

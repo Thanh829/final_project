@@ -107,7 +107,7 @@
             // btnTroVe
             // 
             this.btnTroVe.BackColor = System.Drawing.Color.Transparent;
-            this.btnTroVe.BackgroundImage = global::DAQuanLyNhanVien.Properties.Resources.undo_arrow_left_edit_back_512;
+            this.btnTroVe.BackgroundImage = global::DAQuanLyNhanVien.Properties.Resources.iconfinder_undo_6212;
             this.btnTroVe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnTroVe.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTroVe.Location = new System.Drawing.Point(971, 12);
@@ -120,7 +120,7 @@
             // btnHuy
             // 
             this.btnHuy.BackColor = System.Drawing.Color.Transparent;
-            this.btnHuy.BackgroundImage = global::DAQuanLyNhanVien.Properties.Resources.cancel;
+            this.btnHuy.BackgroundImage = global::DAQuanLyNhanVien.Properties.Resources.iconfinder_fileclose_6038;
             this.btnHuy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnHuy.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuy.Location = new System.Drawing.Point(873, 12);

@@ -21,7 +21,7 @@ namespace DAQuanLyNhanVien.BS_layer
         }
         public DataSet LayNV()
         {
-            return db.ExecuteQueryDataSet("select * from NhanVien where status=1", CommandType.Text);
+            return db.ExecuteQueryDataSet("select MaNV, HoVaTen, NgaySinh, DiaChi, GioiTinh, Phong, NgayLamTrongThang, NgayLamGanNhat   from NhanVien where status=1", CommandType.Text);
         }
         public bool ThemNV(string MaNV, string TenNV, string NgaySinh, string Diachi, string GioiTinh, string Phong,ref string err)
         {

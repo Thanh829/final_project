@@ -27,11 +27,13 @@ C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLy
 C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\bin\Debug\DAQuanLyNhanVien.pdb
 C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.csprojAssemblyReference.cache
 C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.frmNhanVien.resources
-C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.Luong.resources
-C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.Phancong.resources
 C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.Properties.Resources.resources
 C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.csproj.GenerateResource.cache
 C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.csproj.CoreCompileInputs.cache
 C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.exe
 C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.pdb
-C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.Main.resources
+C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.frmPhongBan.resources
+C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.frmLuong.resources
+C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.frmPhanCong.resources
+C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.frmMain.resources
+C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.frmDuAn.resources
