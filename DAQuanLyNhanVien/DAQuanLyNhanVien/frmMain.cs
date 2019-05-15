@@ -12,6 +12,7 @@ namespace DAQuanLyNhanVien
 {
     public partial class frmMain : Form
     {
+        public bool status = false;
         public frmMain()
         {
             InitializeComponent();
@@ -29,33 +30,59 @@ namespace DAQuanLyNhanVien
 
         private void btnNhanVien_Click(object sender, EventArgs e)
         {
-            frmNhanVien fnv = new frmNhanVien();
-            fnv.ShowDialog();
-
+            if (status != false)
+            {
+                frmNhanVien fnv = new frmNhanVien();
+                fnv.ShowDialog();
+            }
+            else MessageBox.Show("Bạn phải đăng nhập để dùng tính năng này.");
         }
 
         private void btnLuong_Click(object sender, EventArgs e)
         {
-            frmLuong fl = new frmLuong();
-            fl.ShowDialog();
+            if (status != false)
+            {
+                frmLuong fl = new frmLuong();
+             fl.ShowDialog();
+            }
+            else MessageBox.Show("Bạn phải đăng nhập để dùng tính năng này.");
         }
 
         private void btnPhongBan_Click(object sender, EventArgs e)
         {
-            frmPhongBan fPhB = new frmPhongBan();
-            fPhB.ShowDialog();
+            if (status != false)
+            {
+                frmPhongBan fPhB = new frmPhongBan();
+                fPhB.ShowDialog();
+            }
+            else MessageBox.Show("Bạn phải đăng nhập để dùng tính năng này.");
         }
 
         private void btnDuAn_Click(object sender, EventArgs e)
         {
-            frmDuAn fDA = new frmDuAn();
-            fDA.ShowDialog();
+            if (status != false)
+            {
+                frmDuAn fDA = new frmDuAn();
+                fDA.ShowDialog();
+            }
+            else MessageBox.Show("Bạn phải đăng nhập để dùng tính năng này.");
         }
 
         private void btnPhanCong_Click(object sender, EventArgs e)
         {
-            frmPhanCong fpb = new frmPhanCong();
-            fpb.ShowDialog();
+            if (status != false)
+            {
+                frmPhanCong fpb = new frmPhanCong();
+                fpb.ShowDialog();
+            }
+            else MessageBox.Show("Bạn phải đăng nhập để dùng tính năng này.");
+        }
+
+        private void lDN_Click(object sender, EventArgs e)
+        {
+            frmDangNhap fdn = new frmDangNhap();
+            fdn.ShowDialog();
+            if (fdn.hople == true) status = true;
         }
     }
 }

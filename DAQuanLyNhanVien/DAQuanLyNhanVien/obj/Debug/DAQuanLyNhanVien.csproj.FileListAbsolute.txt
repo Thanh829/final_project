@@ -37,3 +37,4 @@ C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLy
 C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.frmPhanCong.resources
 C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.frmMain.resources
 C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.frmDuAn.resources
+C:\Users\diepg\OneDrive\Documents\GitHub\final_project\DAQuanLyNhanVien\DAQuanLyNhanVien\obj\Debug\DAQuanLyNhanVien.frmDangNhap.resources

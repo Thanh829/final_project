@@ -163,6 +163,7 @@
             this.lDN.Size = new System.Drawing.Size(128, 25);
             this.lDN.TabIndex = 2;
             this.lDN.Text = "Đăng Nhập";
+            this.lDN.Click += new System.EventHandler(this.lDN_Click);
             // 
             // btnThongTin
             // 
