@@ -269,6 +269,7 @@
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnXoa);
             this.Name = "frmPhongBan";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmPhongBan";
             this.Load += new System.EventHandler(this.frmPhongBan_Load);
             this.panel1.ResumeLayout(false);

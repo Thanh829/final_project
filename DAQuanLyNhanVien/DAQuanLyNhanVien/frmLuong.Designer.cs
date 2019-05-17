@@ -243,6 +243,7 @@
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.btnSua);
             this.Name = "frmLuong";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Luong";
             this.Load += new System.EventHandler(this.Luong_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();

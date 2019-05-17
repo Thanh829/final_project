@@ -244,6 +244,7 @@
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnXoa);
             this.Name = "frmPhanCong";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Phancong";
             this.Load += new System.EventHandler(this.Phancong_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();

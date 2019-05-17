@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnPhongBan = new System.Windows.Forms.Button();
@@ -79,7 +80,7 @@
             // 
             // btnPhongBan
             // 
-            this.btnPhongBan.BackgroundImage = global::DAQuanLyNhanVien.Properties.Resources.home_128;
+            this.btnPhongBan.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPhongBan.BackgroundImage")));
             this.btnPhongBan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnPhongBan.Location = new System.Drawing.Point(264, 144);
             this.btnPhongBan.Name = "btnPhongBan";
@@ -90,7 +91,7 @@
             // 
             // btnDuAn
             // 
-            this.btnDuAn.BackgroundImage = global::DAQuanLyNhanVien.Properties.Resources.iconfinder_folder_61771;
+            this.btnDuAn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDuAn.BackgroundImage")));
             this.btnDuAn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnDuAn.Location = new System.Drawing.Point(384, 144);
             this.btnDuAn.Name = "btnDuAn";
@@ -101,7 +102,7 @@
             // 
             // btnPhanCong
             // 
-            this.btnPhanCong.BackgroundImage = global::DAQuanLyNhanVien.Properties.Resources.schedule;
+            this.btnPhanCong.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPhanCong.BackgroundImage")));
             this.btnPhanCong.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnPhanCong.Location = new System.Drawing.Point(497, 144);
             this.btnPhanCong.Name = "btnPhanCong";
@@ -112,7 +113,7 @@
             // 
             // btnLuong
             // 
-            this.btnLuong.BackgroundImage = global::DAQuanLyNhanVien.Properties.Resources.money_main_128;
+            this.btnLuong.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLuong.BackgroundImage")));
             this.btnLuong.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnLuong.Location = new System.Drawing.Point(142, 144);
             this.btnLuong.Name = "btnLuong";
@@ -123,7 +124,7 @@
             // 
             // btnNhanVien
             // 
-            this.btnNhanVien.BackgroundImage = global::DAQuanLyNhanVien.Properties.Resources.group;
+            this.btnNhanVien.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnNhanVien.BackgroundImage")));
             this.btnNhanVien.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnNhanVien.Location = new System.Drawing.Point(32, 144);
             this.btnNhanVien.Name = "btnNhanVien";
@@ -134,7 +135,7 @@
             // 
             // btnChamCong
             // 
-            this.btnChamCong.BackgroundImage = global::DAQuanLyNhanVien.Properties.Resources._61_512;
+            this.btnChamCong.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnChamCong.BackgroundImage")));
             this.btnChamCong.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnChamCong.Location = new System.Drawing.Point(142, 33);
             this.btnChamCong.Name = "btnChamCong";
@@ -144,20 +145,21 @@
             // 
             // btnHoSo
             // 
-            this.btnHoSo.BackgroundImage = global::DAQuanLyNhanVien.Properties.Resources.user;
+            this.btnHoSo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnHoSo.BackgroundImage")));
             this.btnHoSo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnHoSo.Location = new System.Drawing.Point(32, 33);
             this.btnHoSo.Name = "btnHoSo";
             this.btnHoSo.Size = new System.Drawing.Size(77, 73);
             this.btnHoSo.TabIndex = 0;
             this.btnHoSo.UseVisualStyleBackColor = true;
+            this.btnHoSo.Click += new System.EventHandler(this.btnHoSo_Click);
             // 
             // lDN
             // 
             this.lDN.AutoSize = true;
             this.lDN.BackColor = System.Drawing.Color.Transparent;
             this.lDN.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lDN.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lDN.ForeColor = System.Drawing.Color.Blue;
             this.lDN.Location = new System.Drawing.Point(522, 160);
             this.lDN.Name = "lDN";
             this.lDN.Size = new System.Drawing.Size(128, 25);
@@ -167,7 +169,7 @@
             // 
             // btnThongTin
             // 
-            this.btnThongTin.BackgroundImage = global::DAQuanLyNhanVien.Properties.Resources.Apps_Help_Info_icon;
+            this.btnThongTin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnThongTin.BackgroundImage")));
             this.btnThongTin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnThongTin.Location = new System.Drawing.Point(39, 138);
             this.btnThongTin.Name = "btnThongTin";
@@ -179,7 +181,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::DAQuanLyNhanVien.Properties.Resources.hinh_nen_slide_dep_63_023219752;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(690, 476);
             this.Controls.Add(this.btnThongTin);
@@ -187,6 +189,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Name = "frmMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Maincs";
             this.Load += new System.EventHandler(this.Maincs_Load);
             this.panel1.ResumeLayout(false);

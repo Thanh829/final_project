@@ -13,6 +13,7 @@ namespace DAQuanLyNhanVien
     public partial class frmMain : Form
     {
         public bool status = false;
+        public string MaNV;
         public frmMain()
         {
             InitializeComponent();
@@ -80,9 +81,42 @@ namespace DAQuanLyNhanVien
 
         private void lDN_Click(object sender, EventArgs e)
         {
-            frmDangNhap fdn = new frmDangNhap();
-            fdn.ShowDialog();
-            if (fdn.hople == true) status = true;
+            if (status == false)
+            {
+                frmDangNhap fdn = new frmDangNhap();
+                fdn.ShowDialog();
+                if (fdn.hople == true)
+                {
+                    status = true;
+                    MaNV = fdn.ma;
+                    MessageBox.Show("Đăng nhập thành công. \nChào mừng NV: " + MaNV + "\nBây giờ bạn đã có thể xử dụng các tính năng.");
+                    lDN.ForeColor = Color.Red;
+                    lDN.Text = "Đăng Xuất";
+                };
+            }
+            else
+            {
+                // Khai báo biến traloi
+                DialogResult traloi;
+                // Hiện hộp thoại hỏi đáp
+                traloi = MessageBox.Show("Bạn muốn đăng xuất?", "Trả lời",
+                MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                // Kiểm tra có nhắp chọn nút Ok không?
+                if (traloi == DialogResult.OK)
+                {
+                    status = false;
+                    lDN.ForeColor = Color.Blue;
+                    lDN.Text = "Đăng Nhập";
+                }
+            }
+
+        }
+
+        private void btnHoSo_Click(object sender, EventArgs e)
+        {
+            frmHoSo fhs = new frmHoSo();
+            fhs.MaNV = MaNV;
+            fhs.ShowDialog();
         }
     }
 }

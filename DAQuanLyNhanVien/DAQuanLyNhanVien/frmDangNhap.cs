@@ -12,6 +12,7 @@ namespace DAQuanLyNhanVien
     public partial class frmDangNhap : Form
     {
         public bool hople = false;
+        public string ma;
         public frmDangNhap()
         {
             InitializeComponent();
@@ -31,6 +32,7 @@ namespace DAQuanLyNhanVien
             }
             if (hople == true)
             {
+                ma = txtMaNV.Text;
                 this.Close();
             }
             else MessageBox.Show("Tài khoản hoặc mật khẩu không chính xác!");
