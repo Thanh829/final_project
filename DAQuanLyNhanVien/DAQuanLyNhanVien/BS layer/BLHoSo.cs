@@ -19,11 +19,10 @@ namespace DAQuanLyNhanVien.BS_layer
         }
         public DataSet layHS(string MaNV, ref string err)
         {
-            return db.ExecuteQueryDataSet("SELECT NhanVien.HoVaTen,  NhanVien.NgaySinh, NhanVien.DiaChi, NhanVien.GioiTinh, PhongBan.TenPhong, Luong.LuongCoBan, Luong.LuongTHuong " +
-                                          "FROM NhanVien, PhongBan, Luong" +
+            return db.ExecuteQueryDataSet("SELECT NhanVien.MaNV, NhanVien.HoVaTen,  NhanVien.NgaySinh, NhanVien.DiaChi, NhanVien.GioiTinh, PhongBan.TenPhong, Luong.LuongCoBan, Luong.LuongTHuong " +
+                                          "FROM NhanVien inner join PhongBan on NhanVien.Phong = PhongBan.MaPhong inner join Luong on NhanVien.MaNV = Luong.MaNV" +
                                           " WHERE NhanVien.MaNV = '" + MaNV + 
-                                          "' AND NhanVien.Phong = PhongBan.MaPhong" +
-                                          "AND NhanVien.MaNV = Luong.MaNV " + "' ", CommandType.Text);
+                                          "' ", CommandType.Text);
         }
     }
 }

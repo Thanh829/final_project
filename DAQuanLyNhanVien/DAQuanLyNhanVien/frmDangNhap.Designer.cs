@@ -88,6 +88,7 @@
             this.txtPass.Size = new System.Drawing.Size(229, 33);
             this.txtPass.TabIndex = 4;
             this.txtPass.UseSystemPasswordChar = true;
+            this.txtPass.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPass_KeyDown);
             // 
             // frmDangNhap
             // 

@@ -37,5 +37,27 @@ namespace DAQuanLyNhanVien
             }
             else MessageBox.Show("Tài khoản hoặc mật khẩu không chính xác!");
         }
+
+        private void txtPass_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                dtDN = new DataTable();
+                dtDN.Clear();
+                DataSet ds = dbDN.login(txtMaNV.Text, txtPass.Text, ref err);
+                dtDN = ds.Tables[0];
+                if (dtDN.Rows.Count > 0)
+                {
+                    hople = true;
+                }
+                if (hople == true)
+                {
+                    ma = txtMaNV.Text;
+                    this.Close();
+                }
+                else MessageBox.Show("Tài khoản hoặc mật khẩu không chính xác!");
+            }
+        
+        }
     }
 }
